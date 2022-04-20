@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizPage5"
+    android:background="@drawable/img_1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewhello5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textColor="#FFEB3B"
+            android:layout_margin="10dp"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textViewhelloname5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textColor="#FFEB3B"
+            android:layout_margin="10dp"
+            android:textSize="30dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textViewQuestion5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:text="What is the return type of Constructors?"
+        android:textColor="#040404"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton5a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="int"
+            android:layout_marginLeft="40dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton5b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="float"
+            android:layout_marginLeft="40dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton5c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="void"
+            android:layout_marginLeft="40dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton5d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None of the above"
+            android:layout_marginLeft="40dp"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textViewcorrect5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correct"
+        android:textColor="#FFEB3B"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/buttonnextquestion5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#EF1C1C"
+        />
+
+    <Button
+        android:id="@+id/buttonQuit5"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#EF1C1C"
+        android:text="Quit" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textViewscore5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score :"
+            android:textSize="30dp"
+            android:layout_margin="40dp"/>
+
+        <TextView
+            android:id="@+id/textViewscorecal5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:text="TextView"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
